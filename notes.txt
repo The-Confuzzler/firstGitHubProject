@@ -1,0 +1,8 @@
+you can find the shortcuts in file-> Preference-> shortcuts. The shortcut for formatting is shift + alt + f
+
+you can only have one html element that is returned by a js component
+the way that you style js components is by creating a css file of the same name and then adding the className stylings to it. After you have what you want, 
+    you will need to import it into the js file that you want to use it in. You do not need to export the css file. Then if you wish to use the stylings
+    inside of the css file, you need to give the correct div a className that is the same as the css styling you want to use
+
+When you create a card component, you need to make sure that it is all in lower case, so it is regcanized as a html element
