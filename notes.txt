@@ -6,3 +6,7 @@ the way that you style js components is by creating a css file of the same name 
     inside of the css file, you need to give the correct div a className that is the same as the css styling you want to use
 
 When you create a card component, you need to make sure that it is all in lower case, so it is regcanized as a html element
+
+event handlers, the onClick type, want to take in a function
+
+you do not want to have too much logic in your jsx code, and want to define a function before you return jsx code
