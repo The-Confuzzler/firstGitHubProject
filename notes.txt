@@ -10,3 +10,10 @@ When you create a card component, you need to make sure that it is all in lower 
 event handlers, the onClick type, want to take in a function
 
 you do not want to have too much logic in your jsx code, and want to define a function before you return jsx code
+
+props.children is the contents that will be between the opening and closing tag that is specified for a certain component
+
+react does not normaly refresh the page. This will have to be done manually. How it works at a base level is that react will go through
+    and parse all of your code then be done if it see no more functions that have the possibility to be exuted
+
+In the import statment of a library, if you use a comma and curly braces after the library name, you can import specified named pieces from said library
